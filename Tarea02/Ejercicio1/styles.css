@@ -1,0 +1,96 @@
+/*General*/
+* {
+	font-family: verdana;	
+}
+
+
+
+/*Contenedores*/
+#contenedor_principal {
+	color: blue;
+	font-family: Cursive, Helvetica, Sans-serif;
+	text-align: center;
+	border: solid olive;
+	font-size: 2em;
+	width:700px;
+	height:400px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+
+#contenedor_marcado{
+	background-color: cyan; 
+	text-align: left;
+	width:950px;
+	height:470px;
+	align-items: center;
+	border: dashed green;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#contenedor_listas{
+	background-color: cyan; 
+	text-align: left;
+	width:950px;
+	height:500px;
+	align-items: center;
+	border: dashed green;
+	margin: 0 auto;
+	padding: 10px;
+}
+#contenedor_tablas{
+	background-color: cyan; 
+	text-align: left;
+	width:950px;
+	height:400px;
+	align-items: center;
+	border: dashed green;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+/*Encabezado*/
+h1,h2 {
+	text-align: center;
+	font-family: Cursive, Helvetica, Sans-serif;
+	color: blue;
+}
+h3{
+	text-align: center;
+}
+
+/*Enlaces*/
+a{
+	color: green;
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: red;
+}
+.marcado{ /*Tambíén para el parrafo en listas*/
+	text-indent: 5%;
+}
+
+.icono_listas{
+	float: top;
+	float: right;
+
+}
+
+/*tabla*/
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+td {
+	border: solid red;
+}
+

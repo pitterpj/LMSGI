@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+	<title> Formulario </title>
+	<meta charset="utf-8">
+	<meta name="author" content="Pedro.J">
+	<meta name="description" content="Página de formulario de Pedro.J para la tarea 02 de lenguaje de marcas y sistemas de gestion de informacion">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Pedro.J</h1>
+	<img class="foto_perfil" src="image/pedro.j.JPEG" width="300" height="300">
+			<!-- NOTA PARA EL PROFE, NO HE DADO NI ME HAN COGIDO EN LAS ASIGNATURAS DE PROGRAMACIÓN NI BASE DE DATOS POR LO TANTO NO HE DADO PHP PARA REALIZARTE EL FORMULARIO CON EL ENVIO EN POST COMO ME PIDES. SI CREES QUE LO NECESITARÉ OBLIGATORIAMENTE PARA EL FUTURO ME PONDRÉ A ELLO, DÍMELO Y VUELVO A REALIZAR LA TAREA COMO PUEDA -->
+	<form class="formulario_mihotel" name="mihotel" action="reservas.php" method="post">
+
+		<fieldset>
+			<legend>Datos Personales</legend>
+				<label for="Nombre" >Nombre</label>
+				<input required="required" placeholder="Profe" type="text" name="Nombre" >
+
+				<label for="Telefono">Telefono</label>
+				<input required pattern="[6-9]{1}[0-9]{8}" placeholder="apruébeme" type="tel" name="Telefono" >
+				<br>
+
+				<label for="Apellidos">Apellidos</label>
+				<input required="required" placeholder="por" type="text" name="Apellidos" >
+
+				<label type="email" for="Email">Email</label>
+				<input required="required" placeholder="favor" type="email" name="Email" >
+
+				<label for=">Numero de coches" >Numero de coches</label>
+				<select required="required" name="Numero de coches">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>+</option>
+				</select>
+				
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Fecha de Entrada</legend>
+				<input type="date" name="dia">
+		</fieldset>
+
+
+		<fieldset>
+			<legend>Fecha de Salida</legend>
+				<input type="date" name="dia">
+		</fieldset>
+
+
+		<fieldset value="habitaciones" >
+			<legend>Habitaciones</legend>
+				<input value="simple" type="radio" name="habitaciones" checked="checked">Simple
+				<br>
+				<input value="doble" type="radio" name="habitaciones">Doble
+				<br>
+				<input value="matrimonio"type="radio" name="habitaciones">Matrimonio
+		</fieldset>
+
+
+		<fieldset>
+			<legend>Extras</legend>
+				<input type="checkbox" name="desayuno" checked="checked">Desayuno
+				<br>
+				<input type="checkbox" name="comida">Comida
+				<br>
+				<input type="checkbox" name="cena">Cena
+				<br>
+				<input type="checkbox" name="cama supletoria">Cama supletoria
+		</fieldset>
+
+
+		<fieldset>
+			<legend>Comentarios</legend>
+				<textarea placeholder="Observaciones" cols="40" rows="5" name="comentarios"></textarea>
+
+		</fieldset>
+
+
+
+		<input value="Resetear datos" type="reset" name="reset">
+		<input type="submit" name="Aprobado" value="Aprobado">
+
+
+	</form>
+
+</body>
+</html>

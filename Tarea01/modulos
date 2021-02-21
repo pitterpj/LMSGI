@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE modulos>
+
+	<grado>
+
+		<ciclo>DAM</ciclo>
+			<modulo> Lenguaje de Marcas y Sistemas de Gestión de Información </modulo>
+				<tiempo horas="4" tipo="semanales"/>
+				<caracter tipo="Obligatorio"/>
+				<fecha_ini dia="15" mes="de Septiembre" año="2010"/>
+				<fecha_fin dia="30" mes="de junio" año="de 2011"/>
+
+					<matriculados>
+						<alumno faltas="0" notas=" ">
+							<nombre> Ana Fernández Gutiérrez </nombre>
+							<nif>16965696L</nif>
+							<telefono>789654321</telefono>
+							<email>ana.fdezgtrrez@hotmail.com</email>
+							<direccion calle="El Percebe" numero="13" localidad=" Santander" CP=" 39302"/>
+						</alumno>
+
+
+						<alumno faltas="0" notas="Apto">
+							<nombre> Pepito Grillo </nombre>
+							<nif>98765432H</nif>
+							<telefono> 656566555</telefono>
+							<email>yhyh@yahoo.com</email>
+							<direccion calle="Avd. El Pez" numero="5" localidad=" Suances" CP=" 39401"/>
+						</alumno>
+					
+
+					</matriculados>
+
+	</grado>
+

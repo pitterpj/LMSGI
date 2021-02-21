@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE agenda>
+
+	<agenda>
+
+		<contacto>
+
+			<Apodo>
+
+				<nombre>Fulanito</nombre>
+				<apellido1>De</apellido1>
+				<apellido2>Tal</apellido2>
+
+			</Apodo>
+
+			<dirección>
+				<calle>Falsa</calle>
+				<numero>123</numero>
+				<localidad>El Carajo</localidad>
+				<cp>10000</cp>
+			</dirección>
+
+			<telefonos>
+				<movil>666666666</movil>
+				<casa>999999999</casa>
+				<trabajo>999966666</trabajo>
+			</telefonos>
+		</contacto1>
+
+	</agenda>
